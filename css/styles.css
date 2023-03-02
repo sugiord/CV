@@ -67,12 +67,14 @@ a:hover {
 
 .copyright {
     font-size: 0.7rem;
-    padding: 20px 0; /*Shorthand = 20px top&bot / 0px left&right*/
+    padding: 20px 0;
+    /*Shorthand = 20px top&bot / 0px left&right*/
 }
 
 .contact-message {
     width: 40%;
-    margin: 40px auto 60px; /*Shorthand = TOP 40 - SX&DX auto - BOT 60*/
+    margin: 40px auto 60px;
+    /*Shorthand = TOP 40 - SX&DX auto - BOT 60*/
 }
 
 .skill-one {
@@ -90,14 +92,22 @@ a:hover {
 
 .bottom-cloud {
     position: absolute;
-    left: 350px;
-    bottom: 300px;
+    left: 300px;
+    bottom: 400px;
+    height: 120px;
+    width: 120px;
 }
 
 .top-cloud {
     position: absolute;
     right: 300px;
     top: 50px;
+    height: 120px;
+    width: 120px;
+}
+
+.world {
+    position: relative;
 }
 
 .myself {
